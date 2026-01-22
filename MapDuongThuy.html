@@ -169,10 +169,6 @@
             background-color: #da190b;
         }
 
-        .file-selector-panel .file-group {
-            margin-bottom: 15px;
-        }
-
         .file-selector-panel .file-group label {
             display: flex;
             align-items: center;
@@ -240,7 +236,7 @@
 
 <body>
     <div class="file-selector-panel">
-        <h3>📊 Chọn đường thủy để hiển thị<button class="close-panel-btn" onclick="togglePanel()">✕</button></h3>
+        <h3>📊 Chọn sông để hiển thị<button class="close-panel-btn" onclick="togglePanel()">✕</button></h3>
         <div class="file-group" id="fileCheckboxes"></div>
     </div>
 
@@ -252,26 +248,30 @@
     <div id="map"></div>
 
     <script>
-        // Hàm toggle danh sách sông
+        // ==================== HÀM QUẢN LÝ BẢNG CHỌN SÔNG ====================
+
+        // Hàm bật/tắt hiển thị danh sách sông
         function togglePanel() {
             const panel = document.querySelector('.file-selector-panel');
             const btn = document.querySelector('.close-panel-btn');
             panel.classList.toggle('collapsed');
 
-            // Đổi icon nút
+            // Đổi icon nút để chỉ trạng thái hiển thị/ẩn
             if (panel.classList.contains('collapsed')) {
-                btn.textContent = '▼';
+                btn.textContent = '▼'; // Mũi tên hướng xuống - danh sách đã ẩn
             } else {
-                btn.textContent = '✕';
+                btn.textContent = '✕'; // Dấu X - danh sách đang hiển thị
             }
         }
 
+        // ==================== KHỞI TẠO BẢN ĐỒ LEAFLET ====================
         var map = L.map('map', { center: [16.0544, 108.2022], zoom: 11 });
-        var currentUserPos = null; // Biến lưu vị trí để chia sẻ
-        var dtndqnLayers = {}; // Lưu trữ các layer DTNDQN
-        var loadedFiles = {}; // Lưu trữ các file đã tải
+        var currentUserPos = null; // Lưu vị trí GPS của người dùng để chia sẻ
+        var dtndqnLayers = {}; // Lưu trữ các lớp đường thủy đã load
+        var loadedFiles = {}; // Tracking các file GeoJSON đã được tải
 
-        // Danh sách các file DTNDQN
+        // ==================== DANH SÁCH ĐƯỜNG THỦY ====================
+        // Danh sách các file GeoJSON đường thủy nội địa với màu sắc riêng
         const dtndqnFiles = [
             { name: 'Cù Lao Chàm', file: 'DTNDQN-CuLaoCham.geojson', color: '#FF6B6B' },
             { name: 'Biển báo', file: 'DTNDQN-Layer-BienBao.geojson', color: '#4ECDC4' },
@@ -282,60 +282,70 @@
             { name: 'Sông Yên', file: 'DTNDQN-SongYen.geojson', color: '#87CEEB' }
         ];
 
-        // Khởi tạo bảng chọn file
+        // ==================== KHỞI TẠO GIAO DIỆN CHỌN SÔNG ====================
+        // Tạo danh sách checkbox cho phép người dùng chọn các sông để hiển thị
         function initFileSelector() {
             const container = document.getElementById('fileCheckboxes');
-            if (container.children.length > 0) return; // Tránh lặp lại nếu đã khởi tạo
+            // Tránh tạo duplicate checkbox nếu hàm được gọi nhiều lần
+            if (container.children.length > 0) return;
 
             dtndqnFiles.forEach((file, index) => {
+                // Tạo label chứa checkbox + tên sông
                 const label = document.createElement('label');
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.value = file.file;
                 checkbox.dataset.index = index;
 
+                // Span chứa tên sông
                 const span = document.createElement('span');
                 span.className = 'file-name';
                 span.textContent = file.name;
 
+                // Thêm vào DOM
                 label.appendChild(checkbox);
                 label.appendChild(span);
                 container.appendChild(label);
 
-                // Thêm event listener để tự động load/unload khi checkbox thay đổi
+                // Khi checkbox thay đổi, tự động load/unload GeoJSON
                 checkbox.addEventListener('change', function () {
                     const fileData = dtndqnFiles[index];
                     if (this.checked) {
-                        loadDTNDQNFile(fileData);
+                        loadDTNDQNFile(fileData); // Tải file sông
                     } else {
-                        unloadDTNDQNFile(fileData);
+                        unloadDTNDQNFile(fileData); // Xóa lớp sông
                     }
                 });
             });
         }
 
-        // Tải file DTNDQN
+        // ==================== TẢI DỮ LIỆU ĐƯỜNG THỦY ====================
+        // Tải file GeoJSON từ máy chủ và hiển thị trên bản đồ
         function loadDTNDQNFile(fileData) {
+            // Kiểm tra file đã được tải để tránh tải lại
             if (loadedFiles[fileData.file]) {
                 console.log(`File ${fileData.file} đã được tải rồi.`);
                 return;
             }
 
+            // Fetch GeoJSON từ server
             fetch(fileData.file)
                 .then(res => res.json())
                 .then(data => {
+                    // Tạo lớp GeoJSON với màu sắc riêng
                     const layer = L.geoJSON(data, {
                         style: function () {
                             return { color: fileData.color, weight: 2.5, opacity: 0.7 };
                         },
-                        onEachFeature: onEachFeatureHandler
+                        onEachFeature: onEachFeatureHandler // Xử lý popup cho mỗi feature
                     }).addTo(map);
 
+                    // Lưu reference để quản lý
                     dtndqnLayers[fileData.file] = layer;
                     loadedFiles[fileData.file] = true;
                     console.log(`Đã tải file ${fileData.file} thành công`);
 
-                    // Zoom vào dữ liệu
+                    // Tự động zoom vào dữ liệu vừa tải
                     zoomToLayer(layer);
                 })
                 .catch(err => {
@@ -344,7 +354,8 @@
                 });
         }
 
-        // Hàm zoom vào layer
+        // ==================== HÀM XỬ LÝ HIỂN THỊ LỚPDỮ LIỆU ====================
+        // Zoom bản đồ vào vùng dữ liệu của một lớp
         function zoomToLayer(layer) {
             try {
                 const bounds = layer.getBounds();
@@ -356,7 +367,7 @@
             }
         }
 
-        // Xóa file DTNDQN
+        // Xóa lớp đường thủy khỏi bản đồ
         function unloadDTNDQNFile(fileData) {
             if (dtndqnLayers[fileData.file]) {
                 map.removeLayer(dtndqnLayers[fileData.file]);
@@ -366,35 +377,48 @@
             }
         }
 
+        // ==================== CẤU HÌNH BẢN ĐỒ NỀN ====================
+        // Các lớp bản đồ nền từ Google Maps
         var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
-            maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google Hybrid'
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            attribution: 'Google Hybrid'
         }).addTo(map);
 
         var googleRoadmap = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-            maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google Roadmap'
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            attribution: 'Google Roadmap'
         });
 
         var googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
-            maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google Terrain'
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            attribution: 'Google Terrain'
         });
 
+        // Thêm control chọn loại bản đồ nền
         var baseMaps = { "Vệ tinh": googleHybrid, "Giao thông": googleRoadmap, "Địa hình": googleTerrain };
         L.control.layers(baseMaps).addTo(map);
 
-        let geoJsonLayer;
-        let dtndqnLayer;
-        let labelLayer = L.layerGroup().addTo(map);
+        // ==================== QUẢN LÝ HIỂN THỊ NHÃN ĐỊA LÝ ====================
+        let geoJsonLayer; // Layer chứa dữ liệu quận huyện
+        let labelLayer = L.layerGroup().addTo(map); // Layer chứa nhãn tên sông
 
+        // Cập nhật hiển thị nhãn sông khi bản đồ di chuyển
         function updateVisibleLabels() {
             labelLayer.clearLayers();
+            // Chỉ hiển thị nhãn khi zoom >= 10 để tránh quá đông
             if (map.getZoom() < 10) return;
             const bounds = map.getBounds();
 
             if (!geoJsonLayer) return;
+
             geoJsonLayer.eachLayer(function (layer) {
                 const props = layer.feature.properties;
                 if (!props || !props.name) return;
 
+                // Lấy tọa độ từ LineString hoặc MultiLineString
                 let latlngs = [];
                 if (layer.feature.geometry.type === 'LineString') {
                     latlngs = layer.getLatLngs();
@@ -402,17 +426,21 @@
                     layer.getLatLngs().forEach(arr => latlngs.push(...arr));
                 }
 
+                // Chỉ hiển thị nhãn nếu có điểm trong view hiện tại
                 const visiblePoints = latlngs.filter(p => bounds.contains(p));
                 if (visiblePoints.length > 0) {
+                    // Tính tâm của các điểm để đặt nhãn
                     let latSum = 0, lngSum = 0;
                     visiblePoints.forEach(p => { latSum += p.lat; lngSum += p.lng; });
                     const dynamicCenter = L.latLng(latSum / visiblePoints.length, lngSum / visiblePoints.length);
 
+                    // Tạo marker cho nhãn
                     L.marker(dynamicCenter, {
                         icon: L.divIcon({
                             className: 'road-label-container',
                             html: `<div class="road-label">${props.name}</div>`,
-                            iconSize: [8, 20], iconAnchor: [40, 20]
+                            iconSize: [8, 20],
+                            iconAnchor: [40, 20]
                         }),
                         interactive: false
                     }).addTo(labelLayer);
@@ -420,8 +448,11 @@
             });
         }
 
+        // Cập nhật nhãn khi bản đồ di chuyển
         map.on('moveend', updateVisibleLabels);
 
+        // ==================== ĐIỀU CHỈNH OPACITY THEO ZOOM ====================
+        // Tính độ trong suốt của quận huyện tùy theo mức zoom
         function calculateOpacity(currentZoom) {
             let baseOpacity = 0.05;
             if (currentZoom <= 15) {
@@ -431,6 +462,7 @@
             return baseOpacity;
         }
 
+        // Cập nhật opacity khi zoom thay đổi
         map.on('zoomend', function () {
             if (geoJsonLayer) {
                 let newOpacity = calculateOpacity(map.getZoom());
@@ -438,13 +470,22 @@
             }
         });
 
+        // ==================== XỬ LÝ SỰ KIỆN CHO TỪNG FEATURE ====================
+        // Tạo popup và xử lý hover cho mỗi feature (quận/huyện)
         function onEachFeatureHandler(feature, layer) {
             if (feature.properties) {
                 const p = feature.properties;
                 let rows = "";
-                const labels = { "dan_so": "Dân số", "dtich_km2": "Diện tích (km²)", "matdo_km2": "Mật độ" };
+                // Ánh xạ tên trường dữ liệu để hiển thị thân thiện hơn
+                const labels = {
+                    "dan_so": "Dân số",
+                    "dtich_km2": "Diện tích (km²)",
+                    "matdo_km2": "Mật độ"
+                };
+                // Các trường không cần hiển thị trong popup
                 const keysToHide = ['name', 'styleUrl', 'styleHash', 'description', 'stroke', 'fill', 'fill-opacity', 'stroke-opacity', 'stroke-width', 'Tên phường/xã', 'ten_xa', 'loai'];
 
+                // Xây dựng bảng thông tin
                 for (let key in p) {
                     if (!keysToHide.includes(key)) {
                         let displayLabel = labels[key] || key;
@@ -452,10 +493,12 @@
                     }
                 }
 
+                // Tiêu đề popup
                 let fullTitle = (p.loai ? p.loai + " " : "") + (p.ten_xa || p.name || "Thông tin");
                 layer.bindPopup(`<div class="info-popup"><h3 style="color: #0026FF; border-bottom: 2px solid #FF6A00;">${fullTitle}</h3><table>${rows}</table></div>`);
             }
 
+            // Xử lý sự kiện mouseover/out để highlight feature
             layer.on({
                 mouseover: function (e) {
                     e.target.setStyle({ weight: 7, color: '#FF0000' });
@@ -467,41 +510,59 @@
             });
         }
 
+        // ==================== TẢI DỮ LIỆU QUẬN HUYỆN ====================
+        // Tải file GeoJSON quận/huyện Đà Nẵng làm nền
         fetch('QuanHuyen.geojson')
             .then(res => res.json())
             .then(data => {
                 geoJsonLayer = L.geoJSON(data, {
-                    style: function () { return { fillOpacity: 0.000001, color: getRandomColor(), weight: 1 }; },
+                    style: function () {
+                        return {
+                            fillOpacity: 0.000001, // Hầu như trong suốt
+                            color: getRandomColor(),
+                            weight: 1
+                        };
+                    },
                     onEachFeature: onEachFeatureHandler
                 }).addTo(map);
                 updateVisibleLabels();
             });
 
-        // Khởi tạo bảng chọn file khi trang tải xong
+        // ==================== KHỞI TẠO BỘ CHỌN SÔ NG KHOẢNG HỰA ====================
+        // Chạy initFileSelector khi DOM sẵn sàng
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', initFileSelector);
         } else {
             initFileSelector();
         }
 
-        // CẬP NHẬT HÀM ĐỊNH VỊ
+        // ==================== LẤY VỊ TRÍ GPS CỦA NGƯỜI DÙNG ====================
+        // Định vị vị trí hiện tại của người dùng
         function findMyState() {
             navigator.geolocation.getCurrentPosition(function (p) {
                 const lat = p.coords.latitude, lng = p.coords.longitude;
-                currentUserPos = [lat, lng]; // Lưu lại tọa độ
-                L.marker(currentUserPos).addTo(map).bindPopup("<b>Bạn đang ở đây!</b>").openPopup();
+                currentUserPos = [lat, lng]; // Lưu tọa độ để chia sẻ sau
+                // Tạo marker cho vị trí người dùng
+                L.marker(currentUserPos)
+                    .addTo(map)
+                    .bindPopup("<b>Bạn đang ở đây!</b>")
+                    .openPopup();
+                // Zoom vào vị trí người dùng
                 map.setView(currentUserPos, 15);
             });
         }
 
-        // THÊM HÀM CHIA SẺ VỊ TRÍ
+        // ==================== CHIA SẺ VỊ TRÍ ====================
+        // Chia sẻ vị trí hiện tại qua nhiều cách
         function shareLocation() {
             if (!currentUserPos) {
                 alert("Vui lòng nhấn 'Vị trí của tôi' trước khi chia sẻ!");
                 return;
             }
+            // Tạo URL Google Maps cho vị trí hiện tại
             const url = `https://www.google.com/maps?q=${currentUserPos[0]},${currentUserPos[1]}`;
 
+            // Dùng Web Share API nếu thiết bị hỗ trợ
             if (navigator.share) {
                 navigator.share({
                     title: 'Vị trí của tôi',
@@ -509,15 +570,20 @@
                     url: url
                 }).catch(err => console.log('Lỗi chia sẻ:', err));
             } else {
+                // Fallback: copy URL vào clipboard
                 navigator.clipboard.writeText(url);
                 alert("Link vị trí đã được copy vào bộ nhớ tạm!");
             }
         }
 
+        // ==================== HÀM HỖ TRỢ ====================
+        // Tạo màu ngẫu nhiên cho quận huyện
         function getRandomColor() {
             var letters = '0123456789ABCDEF';
             var color = '#';
-            for (var i = 0; i < 6; i++) { color += letters[Math.floor(Math.random() * 16)]; }
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
             return color;
         }
     </script>
