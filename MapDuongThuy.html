@@ -111,20 +111,25 @@
 
         /* Bảng chọn file DTNDQN */
         .file-selector-panel {
-            position: absolute;
+           position: absolute;
             bottom: 10px;
             left: 20px;
             background: white;
-            border-radius: 8px;
-            padding: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
             z-index: 999;
-            max-height: 70vh;
+            max-height: 50vh;
             overflow-y: auto;
-            max-width: 260px;
+            max-width: 90vw;
             font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
+            right: auto;
+            /* Không ép sát lề phải nữa */
+            width: fit-content;
+            /* Co lại vừa khít nội dung bên trong */
+            padding: 8px;
+            /* Thêm khoảng đệm cho chữ không sát mép bảng */
         }
 
         .file-selector-panel .file-group {
@@ -161,7 +166,7 @@
                 bottom: 10px;
                 left: 10px;
                 right: auto; /* Không ép sát lề phải nữa */
-                max-height: 50vh; /* Co lại vừa khít nội dung bên trong */
+                max-height: 45vh; /* Co lại vừa khít nội dung bên trong */
                 max-width: 90vh; /* Đảm bảo không quá rộng nếu tên file quá dài */
                 min-width: auto;
                 width: fit-content;
