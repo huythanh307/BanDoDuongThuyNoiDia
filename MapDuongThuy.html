@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bản đồ Đà Nẵng</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+
+        /* Nhóm các nút điều khiển */
+        .controls-container {
+            position: absolute;
+            bottom: 30px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .locate-button,
+        .share-button {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+            font-weight: bold;
+            border: none;
+            width: 100%;
+        }
+
+        .share-button {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .info-popup {
+            min-width: 120px;
+        }
+
+        .info-popup h3 {
+            margin: 0 0 10px 0;
+            color: #d35400;
+            border-bottom: 2px solid #f39c12;
+        }
+
+        .info-popup table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .info-popup td {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 10px;
+        }
+
+        .info-popup td:first-child {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .leaflet-control-layers-toggle:after {
+            content: "Chọn loại bản đồ";
+            color: #333;
+            font-weight: bold;
+            font-size: 14px;
+            padding-left: 30px;
+            line-height: 36px;
+            white-space: nowrap;
+        }
+
+        .leaflet-control-layers-toggle {
+            width: auto !important;
+            height: 36px !important;
+            padding: 0 10px;
+            background-position: 5px center !important;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .road-label {
+            background: none;
+            color: rgb(252, 2, 2);
+            padding: 2px 8px;
+            font-size: 14px;
+            font-weight: bold;
+            white-space: nowrap;
+            border: none;
+            text-align: center;
+            text-shadow: #eee 2px 2px 4px;
+            pointer-events: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Bảng chọn file DTNDQN */
+        .file-selector-panel {
+            position: absolute;
+            top: 80px;
+            left: 20px;
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            max-height: 600px;
+            overflow-y: auto;
+            min-width: 280px;
+            font-family: Arial, sans-serif;
+        }
+
+        .file-selector-panel h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+            font-size: 16px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+
+        .file-selector-panel .file-group {
+            margin-bottom: 15px;
+        }
+
+        .file-selector-panel .file-group label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .file-selector-panel .file-group label:hover {
+            background-color: #f0f0f0;
+        }
+
+        .file-selector-panel input[type="checkbox"] {
+            margin-right: 10px;
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+        }
+
+        .file-selector-panel .file-name {
+            font-size: 13px;
+            color: #555;
+            flex: 1;
+        }
+
+        .file-selector-panel .btn-group {
+            display: flex;
+            gap: 8px;
+            margin-top: 15px;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+
+        .file-selector-panel button {
+            flex: 1;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        .file-selector-panel .btn-load {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .file-selector-panel .btn-load:hover {
+            background-color: #45a049;
+        }
+
+        .file-selector-panel .btn-clear {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .file-selector-panel .btn-clear:hover {
+            background-color: #da190b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="file-selector-panel">
+        <h3>📊 Chọn đường thủy để hiển thị</h3>
+        <div class="file-group" id="fileCheckboxes"></div>
+    </div>
+
+    <div class="controls-container">
+        <button class="locate-button" onclick="findMyState()">📍 Vị trí của tôi</button>
+        <button class="share-button" onclick="shareLocation()">🔗 Chia sẻ vị trí của tôi</button>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        var map = L.map('map', { center: [16.0544, 108.2022], zoom: 11 });
+        var currentUserPos = null; // Biến lưu vị trí để chia sẻ
+        var dtndqnLayers = {}; // Lưu trữ các layer DTNDQN
+        var loadedFiles = {}; // Lưu trữ các file đã tải
+
+        // Danh sách các file DTNDQN
+        const dtndqnFiles = [
+            { name: 'Cù Lao Chàm', file: 'DTNDQN-CuLaoCham.geojson', color: '#FF6B6B' },
+            { name: 'Biển báo', file: 'DTNDQN-Layer-BienBao.geojson', color: '#4ECDC4' },
+            { name: 'Sông Cổ Cò - Quảng Nam', file: 'DTNDQN-SongCoCo-QN.geojson', color: '#45B7D1' },
+            { name: 'Sông Tam Kỳ', file: 'DTNDQN-SongTamKy.geojson', color: '#96CEB4' },
+            { name: 'Sông Trường Giang', file: 'DTNDQN-SongTruongGiang.geojson', color: '#FFEAA7' },
+            { name: 'Sông Võ Gia', file: 'DTNDQN-SongVuGia.geojson', color: '#DDA0DD' },
+            { name: 'Sông Yên', file: 'DTNDQN-SongYen.geojson', color: '#87CEEB' }
+        ];
+
+        // Khởi tạo bảng chọn file
+        function initFileSelector() {
+            const container = document.getElementById('fileCheckboxes');
+            if (container.children.length > 0) return; // Tránh lặp lại nếu đã khởi tạo
+
+            dtndqnFiles.forEach((file, index) => {
+                const label = document.createElement('label');
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.value = file.file;
+                checkbox.dataset.index = index;
+
+                const span = document.createElement('span');
+                span.className = 'file-name';
+                span.textContent = file.name;
+
+                label.appendChild(checkbox);
+                label.appendChild(span);
+                container.appendChild(label);
+
+                // Thêm event listener để tự động load/unload khi checkbox thay đổi
+                checkbox.addEventListener('change', function () {
+                    const fileData = dtndqnFiles[index];
+                    if (this.checked) {
+                        loadDTNDQNFile(fileData);
+                    } else {
+                        unloadDTNDQNFile(fileData);
+                    }
+                });
+            });
+        }
+
+        // Tải file DTNDQN
+        function loadDTNDQNFile(fileData) {
+            if (loadedFiles[fileData.file]) {
+                console.log(`File ${fileData.file} đã được tải rồi.`);
+                return;
+            }
+
+            fetch(fileData.file)
+                .then(res => res.json())
+                .then(data => {
+                    const layer = L.geoJSON(data, {
+                        style: function () {
+                            return { color: fileData.color, weight: 2.5, opacity: 0.7 };
+                        },
+                        onEachFeature: onEachFeatureHandler
+                    }).addTo(map);
+
+                    dtndqnLayers[fileData.file] = layer;
+                    loadedFiles[fileData.file] = true;
+                    console.log(`Đã tải file ${fileData.file} thành công`);
+
+                    // Zoom vào dữ liệu
+                    zoomToLayer(layer);
+                })
+                .catch(err => {
+                    console.error(`Lỗi khi tải file ${fileData.file}:`, err);
+                    alert(`Không thể tải file ${fileData.name}!`);
+                });
+        }
+
+        // Hàm zoom vào layer
+        function zoomToLayer(layer) {
+            try {
+                const bounds = layer.getBounds();
+                if (bounds.isValid()) {
+                    map.fitBounds(bounds, { padding: [50, 50] });
+                }
+            } catch (err) {
+                console.warn('Không thể zoom vào layer:', err);
+            }
+        }
+
+        // Xóa file DTNDQN
+        function unloadDTNDQNFile(fileData) {
+            if (dtndqnLayers[fileData.file]) {
+                map.removeLayer(dtndqnLayers[fileData.file]);
+                delete dtndqnLayers[fileData.file];
+                delete loadedFiles[fileData.file];
+                console.log(`Đã xóa file ${fileData.file}`);
+            }
+        }
+
+        var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+            maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google Hybrid'
+        }).addTo(map);
+
+        var googleRoadmap = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+            maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google Roadmap'
+        });
+
+        var googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
+            maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google Terrain'
+        });
+
+        var baseMaps = { "Vệ tinh": googleHybrid, "Giao thông": googleRoadmap, "Địa hình": googleTerrain };
+        L.control.layers(baseMaps).addTo(map);
+
+        let geoJsonLayer;
+        let dtndqnLayer;
+        let labelLayer = L.layerGroup().addTo(map);
+
+        function updateVisibleLabels() {
+            labelLayer.clearLayers();
+            if (map.getZoom() < 10) return;
+            const bounds = map.getBounds();
+
+            if (!geoJsonLayer) return;
+            geoJsonLayer.eachLayer(function (layer) {
+                const props = layer.feature.properties;
+                if (!props || !props.name) return;
+
+                let latlngs = [];
+                if (layer.feature.geometry.type === 'LineString') {
+                    latlngs = layer.getLatLngs();
+                } else if (layer.feature.geometry.type === 'MultiLineString') {
+                    layer.getLatLngs().forEach(arr => latlngs.push(...arr));
+                }
+
+                const visiblePoints = latlngs.filter(p => bounds.contains(p));
+                if (visiblePoints.length > 0) {
+                    let latSum = 0, lngSum = 0;
+                    visiblePoints.forEach(p => { latSum += p.lat; lngSum += p.lng; });
+                    const dynamicCenter = L.latLng(latSum / visiblePoints.length, lngSum / visiblePoints.length);
+
+                    L.marker(dynamicCenter, {
+                        icon: L.divIcon({
+                            className: 'road-label-container',
+                            html: `<div class="road-label">${props.name}</div>`,
+                            iconSize: [8, 20], iconAnchor: [40, 20]
+                        }),
+                        interactive: false
+                    }).addTo(labelLayer);
+                }
+            });
+        }
+
+        map.on('moveend', updateVisibleLabels);
+
+        function calculateOpacity(currentZoom) {
+            let baseOpacity = 0.05;
+            if (currentZoom <= 15) {
+                let diff = 12 - currentZoom;
+                return baseOpacity + (diff * 0.1);
+            }
+            return baseOpacity;
+        }
+
+        map.on('zoomend', function () {
+            if (geoJsonLayer) {
+                let newOpacity = calculateOpacity(map.getZoom());
+                geoJsonLayer.eachLayer(l => l.setStyle({ fillOpacity: newOpacity }));
+            }
+        });
+
+        function onEachFeatureHandler(feature, layer) {
+            if (feature.properties) {
+                const p = feature.properties;
+                let rows = "";
+                const labels = { "dan_so": "Dân số", "dtich_km2": "Diện tích (km²)", "matdo_km2": "Mật độ" };
+                const keysToHide = ['name', 'styleUrl', 'styleHash', 'description', 'stroke', 'fill', 'fill-opacity', 'stroke-opacity', 'stroke-width', 'Tên phường/xã', 'ten_xa', 'loai'];
+
+                for (let key in p) {
+                    if (!keysToHide.includes(key)) {
+                        let displayLabel = labels[key] || key;
+                        rows += `<tr><td>${displayLabel}</td><td style="text-align:right">${p[key]}</td></tr>`;
+                    }
+                }
+
+                let fullTitle = (p.loai ? p.loai + " " : "") + (p.ten_xa || p.name || "Thông tin");
+                layer.bindPopup(`<div class="info-popup"><h3 style="color: #0026FF; border-bottom: 2px solid #FF6A00;">${fullTitle}</h3><table>${rows}</table></div>`);
+            }
+
+            layer.on({
+                mouseover: function (e) {
+                    e.target.setStyle({ weight: 7, color: '#FF0000' });
+                    e.target.bringToFront();
+                },
+                mouseout: function (e) {
+                    geoJsonLayer.resetStyle(e.target);
+                }
+            });
+        }
+
+        fetch('QuanHuyen.geojson')
+            .then(res => res.json())
+            .then(data => {
+                geoJsonLayer = L.geoJSON(data, {
+                    style: function () { return { fillOpacity: 0.000001, color: getRandomColor(), weight: 1 }; },
+                    onEachFeature: onEachFeatureHandler
+                }).addTo(map);
+                updateVisibleLabels();
+            });
+
+        // Khởi tạo bảng chọn file khi trang tải xong
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initFileSelector);
+        } else {
+            initFileSelector();
+        }
+
+        // CẬP NHẬT HÀM ĐỊNH VỊ
+        function findMyState() {
+            navigator.geolocation.getCurrentPosition(function (p) {
+                const lat = p.coords.latitude, lng = p.coords.longitude;
+                currentUserPos = [lat, lng]; // Lưu lại tọa độ
+                L.marker(currentUserPos).addTo(map).bindPopup("<b>Bạn đang ở đây!</b>").openPopup();
+                map.setView(currentUserPos, 15);
+            });
+        }
+
+        // THÊM HÀM CHIA SẺ VỊ TRÍ
+        function shareLocation() {
+            if (!currentUserPos) {
+                alert("Vui lòng nhấn 'Vị trí của tôi' trước khi chia sẻ!");
+                return;
+            }
+            const url = `https://www.google.com/maps?q=${currentUserPos[0]},${currentUserPos[1]}`;
+
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Vị trí của tôi',
+                    text: 'Vị trí của tôi',
+                    url: url
+                }).catch(err => console.log('Lỗi chia sẻ:', err));
+            } else {
+                navigator.clipboard.writeText(url);
+                alert("Link vị trí đã được copy vào bộ nhớ tạm!");
+            }
+        }
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) { color += letters[Math.floor(Math.random() * 16)]; }
+            return color;
+        }
+    </script>
+</body>
+
+</html>
