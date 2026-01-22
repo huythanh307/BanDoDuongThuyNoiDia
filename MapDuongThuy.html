@@ -160,22 +160,26 @@
             .file-selector-panel {
                 bottom: 10px;
                 left: 10px;
-                right: 10px;
-                max-height: 50vh;
-                max-width: auto;
+                right: auto; /* Không ép sát lề phải nữa */
+                max-height: 50vh; /* Co lại vừa khít nội dung bên trong */
+                max-width: 90vh; /* Đảm bảo không quá rộng nếu tên file quá dài */
                 min-width: auto;
-                width: auto;
+                width: fit-content;
+                padding: 10px; /* Thêm khoảng đệm cho chữ không sát mép bảng */
             }
 
             .file-selector-panel h3 {
                 font-size: 13px;
                 margin: 0;
-                padding: 0 32px 6px 0;
+                /* Giảm padding để tiêu đề gọn hơn */
+                padding: 0 10px 6px 0; 
+                white-space: nowrap; /* Giữ tiêu đề trên 1 dòng */
             }
 
             .file-selector-panel .file-group {
                 max-height: 30vh;
                 margin-bottom: 8px;
+                overflow-y: auto;    /* Hiện thanh cuộn nếu danh sách quá dài */
             }
         }
 
