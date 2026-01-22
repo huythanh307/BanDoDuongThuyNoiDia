@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bản đồ Đà Nẵng</title>
+    <title>Bản đồ đường thủy nội địa TP.Đà Nẵng</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -179,22 +179,13 @@
         }
 
         .close-panel-btn {
-            position: absolute;
-            right: -6px;
-            top: -8px;
-            background: #f44336;
+            left: 0;
+            top: 50%;
+            background: #269ff0;
             color: white;
-            border: none;
-            width: 32px;
-            height: 32px;
+            width: 24px;
+            height: 24px;
             border-radius: 50%;
-            cursor: pointer;
-            font-size: 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 0.2s;
-            padding: 0;
         }
 
         .close-panel-btn:hover {
@@ -225,7 +216,7 @@
         }
 
         .file-selector-panel .file-name {
-            font-size: 11px;
+            font-size: 13px;
             color: #555;
             flex: 1;
         }
@@ -271,7 +262,8 @@
 
 <body>
     <div class="file-selector-panel">
-        <h3>📊 Chọn sông để hiển thị<button class="close-panel-btn" onclick="togglePanel()">✕</button></h3>
+        <h3><button class="close-panel-btn" onclick="togglePanel()">✕</button> 📊Chọn sông để hiển thị
+        </h3>
         <div class="file-group" id="fileCheckboxes"></div>
     </div>
 
