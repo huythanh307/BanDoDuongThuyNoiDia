@@ -125,12 +125,48 @@
             font-family: Arial, sans-serif;
         }
 
+        .file-selector-panel .file-group {
+            transition: max-height 0.3s ease;
+            max-height: 600px;
+        }
+
+        .file-selector-panel.collapsed .file-group {
+            display: none;
+        }
+
+        .file-selector-panel.collapsed .btn-group {
+            display: none;
+        }
+
         .file-selector-panel h3 {
             margin: 0 0 15px 0;
             color: #333;
             font-size: 16px;
             border-bottom: 2px solid #4CAF50;
             padding-bottom: 10px;
+            position: relative;
+        }
+
+        .close-panel-btn {
+            position: absolute;
+            right: -10px;
+            top: -5px;
+            background: #f44336;
+            color: white;
+            border: none;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+
+        .close-panel-btn:hover {
+            background-color: #da190b;
         }
 
         .file-selector-panel .file-group {
@@ -204,7 +240,7 @@
 
 <body>
     <div class="file-selector-panel">
-        <h3>📊 Chọn đường thủy để hiển thị</h3>
+        <h3>📊 Chọn đường thủy để hiển thị<button class="close-panel-btn" onclick="togglePanel()">✕</button></h3>
         <div class="file-group" id="fileCheckboxes"></div>
     </div>
 
@@ -216,6 +252,20 @@
     <div id="map"></div>
 
     <script>
+        // Hàm toggle danh sách sông
+        function togglePanel() {
+            const panel = document.querySelector('.file-selector-panel');
+            const btn = document.querySelector('.close-panel-btn');
+            panel.classList.toggle('collapsed');
+
+            // Đổi icon nút
+            if (panel.classList.contains('collapsed')) {
+                btn.textContent = '▼';
+            } else {
+                btn.textContent = '✕';
+            }
+        }
+
         var map = L.map('map', { center: [16.0544, 108.2022], zoom: 11 });
         var currentUserPos = null; // Biến lưu vị trí để chia sẻ
         var dtndqnLayers = {}; // Lưu trữ các layer DTNDQN
