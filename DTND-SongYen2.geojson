@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "FeatureCollection",
     "features": [
         {
@@ -17111,21 +17111,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15380561924,
-                    15.95498158338,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17143,21 +17128,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15403304631,
-                    15.95447524342,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17185,21 +17155,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15371813195,
-                    15.95397741562,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17217,21 +17172,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15410742101,
-                    15.95358866956,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17259,21 +17199,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15368374389,
-                    15.95328904808,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17291,21 +17216,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15366078576,
-                    15.95280488544,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17333,21 +17243,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15336293405,
-                    15.95251377598,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17365,21 +17260,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15296999197,
-                    15.95219447268,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17407,21 +17287,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.152403528,
-                    15.95216321331,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17439,21 +17304,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15223247586,
-                    15.95163981854,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17481,21 +17331,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15166601351,
-                    15.95160855719,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17513,21 +17348,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15149496378,
-                    15.95108516177,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17555,21 +17375,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15091626755,
-                    15.95103255901,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17587,21 +17392,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15086043117,
-                    15.95044566968,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17629,21 +17419,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15037369159,
-                    15.95016552718,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17661,21 +17436,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15047362953,
-                    15.94962517501,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17703,21 +17463,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14998706744,
-                    15.9493428151,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17735,21 +17480,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15009065097,
-                    15.94880192049,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17777,21 +17507,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14967490152,
-                    15.94841942628,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km0+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17809,21 +17524,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1499167515,
-                    15.94791938424,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17851,21 +17551,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14951288231,
-                    15.947529369,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17883,21 +17568,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14976033898,
-                    15.94702837166,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17925,21 +17595,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14935086461,
-                    15.94663931149,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -17957,21 +17612,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14963562119,
-                    15.94614103594,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -17999,21 +17639,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1493472634,
-                    15.94566646914,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18031,21 +17656,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14971141659,
-                    15.94524142594,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18073,21 +17683,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14942202438,
-                    15.94476561274,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18105,21 +17700,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14978617583,
-                    15.94434056942,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18147,21 +17727,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14947077621,
-                    15.94389108853,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18179,21 +17744,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14979195833,
-                    15.94343476914,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18221,21 +17771,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14945756341,
-                    15.94298742318,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18253,21 +17788,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14977874417,
-                    15.94253110381,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18295,21 +17815,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14941442149,
-                    15.94212265057,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18327,21 +17832,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14967347964,
-                    15.94163074626,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18369,21 +17859,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14928338466,
-                    15.94122783161,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18401,21 +17876,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14954244203,
-                    15.94073592743,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18443,21 +17903,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14915234908,
-                    15.94033301248,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18475,21 +17920,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14941140568,
-                    15.93984110843,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18517,21 +17947,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14902131475,
-                    15.93943819316,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km1+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18549,36 +17964,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14927473351,
-                    15.93894706201,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+00",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14946146173,
-                    15.93892146406,
-                    0
-                ]
-            },
-            "properties": {
-                "name": 0,
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18606,21 +17991,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14889028169,
-                    15.93854337366,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18638,21 +18008,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14914933675,
-                    15.93805146989,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18680,21 +18035,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14875924988,
-                    15.93764855398,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18712,36 +18052,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14896669339,
-                    15.93716263011,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "k",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14899664236,
-                    15.93715071795,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "M2+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18769,21 +18079,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.148748126,
-                    15.93679444374,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18801,21 +18096,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14847985744,
-                    15.93638726793,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18843,21 +18123,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14796095355,
-                    15.93616533221,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18875,21 +18140,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14799100802,
-                    15.93561716744,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18917,21 +18167,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14747210664,
-                    15.93539523047,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -18949,21 +18184,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14750216237,
-                    15.9348470657,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -18991,21 +18211,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14698255924,
-                    15.93456798598,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19023,21 +18228,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14711773214,
-                    15.93403128934,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19065,21 +18255,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1466522284,
-                    15.93368789874,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19097,21 +18272,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14694014809,
-                    15.93316194317,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19139,21 +18299,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14661184059,
-                    15.93271292694,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19171,21 +18316,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14705681803,
-                    15.93228766451,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19213,21 +18343,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14701759038,
-                    15.931726227,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19245,21 +18360,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14763205392,
-                    15.93161335839,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19287,21 +18387,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14801465864,
-                    15.93146495659,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km2+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19319,21 +18404,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14843449498,
-                    15.9316772411,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19361,21 +18431,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14892507098,
-                    15.93150875578,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19393,21 +18448,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14911259378,
-                    15.93197189357,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19435,21 +18475,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14964810961,
-                    15.93207657512,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19467,21 +18492,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14974124385,
-                    15.93264264204,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19509,21 +18519,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15022147318,
-                    15.93292378848,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19541,21 +18536,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15085384106,
-                    15.93268835481,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19583,21 +18563,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15113239793,
-                    15.93225806885,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19615,21 +18580,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15165003897,
-                    15.93222268331,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19657,21 +18607,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15158283547,
-                    15.93170709041,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19689,21 +18624,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15204283489,
-                    15.93139831876,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19731,21 +18651,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15182029483,
-                    15.93090859443,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19763,21 +18668,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15217986529,
-                    15.93050148727,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19805,21 +18695,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15189789879,
-                    15.93002515196,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19837,21 +18712,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15227975,
-                    15.92960587976,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19879,36 +18739,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15208664123,
-                    15.92908929226,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "k",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15211790925,
-                    15.92909743058,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "M3+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -19926,21 +18756,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15251899941,
-                    15.92873388348,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -19968,21 +18783,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15232926198,
-                    15.9282165584,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20000,21 +18800,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15275094481,
-                    15.92785654619,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20042,21 +18827,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15238513422,
-                    15.92749253622,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km3+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20074,21 +18844,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15255128224,
-                    15.92697083342,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20116,21 +18871,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15210320177,
-                    15.92665459757,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20148,21 +18888,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15219094793,
-                    15.92613554936,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20190,21 +18915,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15168273876,
-                    15.9258845945,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20222,21 +18932,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1517488931,
-                    15.92533940366,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20264,36 +18959,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15122845353,
-                    15.92514940746,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "k",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15125437186,
-                    15.92513062898,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "M4+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20311,21 +18976,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15120637537,
-                    15.92460088742,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20353,21 +19003,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15066863827,
-                    15.92442597587,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20385,21 +19020,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15064656175,
-                    15.9238774557,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20427,21 +19047,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15010882704,
-                    15.92370254269,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20459,21 +19064,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.15008675217,
-                    15.92315402238,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20501,21 +19091,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14954901986,
-                    15.92297910791,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20533,21 +19108,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14952694663,
-                    15.92243058748,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20575,21 +19135,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1489892167,
-                    15.92225567154,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20607,21 +19152,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14896714512,
-                    15.92170715098,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20649,21 +19179,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14842941759,
-                    15.92153223358,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20681,21 +19196,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14836123502,
-                    15.92101698275,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20723,21 +19223,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1477944522,
-                    15.92106358241,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20755,21 +19240,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1475191071,
-                    15.9206160691,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20797,21 +19267,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14698354929,
-                    15.92079710555,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km4+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20829,21 +19284,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14661839005,
-                    15.92037700902,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20871,21 +19311,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14608283201,
-                    15.92055804324,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20903,21 +19328,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14571918094,
-                    15.92013263273,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -20945,21 +19355,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14518211678,
-                    15.92031897712,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -20977,21 +19372,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14481696209,
-                    15.91989887742,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21019,21 +19399,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14428140359,
-                    15.92007990719,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21051,21 +19416,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1439094339,
-                    15.91968190008,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21093,21 +19443,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14338421869,
-                    15.91988937196,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21125,21 +19460,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14299719763,
-                    15.91948802019,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21167,21 +19487,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14247198193,
-                    15.91969548986,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21199,21 +19504,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14208496302,
-                    15.91929413639,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21241,21 +19531,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14155974683,
-                    15.91950160386,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21273,21 +19548,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14117273007,
-                    15.9191002487,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21315,21 +19575,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14063086619,
-                    15.91929824094,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21347,21 +19592,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.14033486414,
-                    15.91876514638,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21389,21 +19619,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13977191843,
-                    15.91869732989,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21421,21 +19636,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13963742579,
-                    15.91816404293,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21463,21 +19663,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13907448196,
-                    15.91809622458,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21495,21 +19680,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13893999158,
-                    15.91756293711,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21537,21 +19707,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13837704962,
-                    15.91749511689,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km5+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21569,21 +19724,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13824256151,
-                    15.91696182891,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21611,21 +19751,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13769069403,
-                    15.9169279275,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21643,21 +19768,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1375039353,
-                    15.91640625995,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21685,21 +19795,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13693344928,
-                    15.9163989139,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21717,21 +19812,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13674336076,
-                    15.9158817119,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21759,21 +19839,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1361890203,
-                    15.91588497276,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21791,21 +19856,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13590508987,
-                    15.91549430096,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21833,21 +19883,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13547428944,
-                    15.91555231842,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21865,21 +19900,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13499375835,
-                    15.91526057329,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21907,21 +19927,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13454035376,
-                    15.91559026789,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -21939,21 +19944,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13395491151,
-                    15.91573129214,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -21981,21 +19971,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13349756993,
-                    15.91541067735,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22013,21 +19988,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13340140032,
-                    15.91482626593,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22055,21 +20015,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13296979989,
-                    15.91443590607,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22087,21 +20032,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13323450098,
-                    15.91395039254,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22129,21 +20059,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13285954393,
-                    15.91353846588,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22161,21 +20076,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13313027388,
-                    15.91305385615,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22203,21 +20103,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13288975971,
-                    15.91255097317,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22235,21 +20120,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1332996326,
-                    15.91217147123,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22277,21 +20147,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13307866172,
-                    15.91166589254,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km6+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22309,21 +20164,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13348853249,
-                    15.91128639027,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22351,21 +20191,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13337658775,
-                    15.91073037882,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22383,21 +20208,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1338841611,
-                    15.91047829215,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22425,21 +20235,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13381167833,
-                    15.90993068192,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22457,21 +20252,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13431421202,
-                    15.90967602801,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22499,21 +20279,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13424676551,
-                    15.90913098417,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22531,21 +20296,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13477685677,
-                    15.90889886998,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22573,21 +20323,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13491726104,
-                    15.9083675212,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22605,21 +20340,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13548152037,
-                    15.9083111094,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22647,21 +20367,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13562749966,
-                    15.90778065944,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22679,21 +20384,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13619175712,
-                    15.90772424582,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22721,21 +20411,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13633773415,
-                    15.90719379541,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22753,21 +20428,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13690198974,
-                    15.90713737997,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22795,21 +20455,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1370479645,
-                    15.9066069291,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22827,21 +20472,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13761221822,
-                    15.90655051185,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22869,21 +20499,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13775452048,
-                    15.90602202963,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22901,21 +20516,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13822249579,
-                    15.90587028579,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -22943,21 +20543,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13810528821,
-                    15.90533318765,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+85",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -22975,21 +20560,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13858245189,
-                    15.90503634869,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23017,21 +20587,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13836092762,
-                    15.90457805898,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km7+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23049,21 +20604,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1385701173,
-                    15.90414547258,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23091,21 +20631,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13804340666,
-                    15.90394710147,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23123,21 +20648,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13804203214,
-                    15.90339501906,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23165,21 +20675,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13750502989,
-                    15.9032086272,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23197,21 +20692,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13749900558,
-                    15.90265972031,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23239,21 +20719,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13696665708,
-                    15.90247015145,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23271,21 +20736,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13696146352,
-                    15.90192102535,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23313,21 +20763,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13650082457,
-                    15.90154977055,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23345,21 +20780,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13687827764,
-                    15.90106758528,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23387,21 +20807,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13685497459,
-                    15.90048693506,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23419,21 +20824,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13747640814,
-                    15.90043193607,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23461,21 +20851,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13769197409,
-                    15.89994740423,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23493,21 +20868,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13819556077,
-                    15.89986082396,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23535,21 +20895,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13808285513,
-                    15.89936608455,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23567,21 +20912,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13842626171,
-                    15.89899037356,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23609,21 +20939,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13812386777,
-                    15.89852594372,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23641,21 +20956,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13846503181,
-                    15.89808739209,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23683,21 +20983,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13816263919,
-                    15.89762296224,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23715,21 +21000,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13850380167,
-                    15.89718441055,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23757,21 +21027,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13820141036,
-                    15.89671998069,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km8+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23789,21 +21044,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13854257128,
-                    15.89628142894,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23831,21 +21071,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13824018128,
-                    15.89581699907,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23863,21 +21088,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13858702789,
-                    15.89537867594,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23905,21 +21115,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13827895194,
-                    15.89491401737,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -23937,21 +21132,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13862010975,
-                    15.8944754655,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -23979,21 +21159,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13831772236,
-                    15.8940110356,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24011,21 +21176,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13864329732,
-                    15.89356989594,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24053,21 +21203,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13820270748,
-                    15.89328064962,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24085,21 +21220,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13816192508,
-                    15.89280467262,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24127,21 +21247,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13760577817,
-                    15.8928933435,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24159,21 +21264,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13728354203,
-                    15.89248357896,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24201,21 +21291,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13686460792,
-                    15.89258674936,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24233,21 +21308,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13632654321,
-                    15.89241302722,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24275,21 +21335,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13598194528,
-                    15.89286180516,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24307,21 +21352,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13540120603,
-                    15.89294593436,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24349,21 +21379,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13532668476,
-                    15.89349011469,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24381,21 +21396,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13477458933,
-                    15.89361603807,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24423,21 +21423,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13470006617,
-                    15.89416021819,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24455,21 +21440,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13418371635,
-                    15.89418742813,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24497,21 +21467,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13393706509,
-                    15.89468086024,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km9+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24529,21 +21484,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13342629718,
-                    15.89457205047,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24571,21 +21511,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13304030008,
-                    15.89489295351,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24603,21 +21528,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13253846096,
-                    15.89488095689,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24645,21 +21555,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13197110591,
-                    15.89496682703,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24677,21 +21572,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13169500626,
-                    15.89450132843,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24719,21 +21599,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13113817092,
-                    15.894546018,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24751,21 +21616,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13095182727,
-                    15.89397579672,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24793,21 +21643,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13044058681,
-                    15.89376852584,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24825,21 +21660,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.13043783713,
-                    15.89322152926,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24867,21 +21687,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12993771714,
-                    15.89298952236,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24899,21 +21704,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12994668761,
-                    15.89245285766,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -24941,21 +21731,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12944657007,
-                    15.89222084955,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -24973,21 +21748,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12945554186,
-                    15.8916841848,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25015,21 +21775,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12895203068,
-                    15.8915395526,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25047,21 +21792,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12883266097,
-                    15.89101539725,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25089,21 +21819,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12829069478,
-                    15.8909014685,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25121,21 +21836,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12817132718,
-                    15.89037731272,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "M10+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25163,21 +21863,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12762936305,
-                    15.89026338226,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25195,21 +21880,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12748051965,
-                    15.88977417469,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25237,21 +21907,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12700842377,
-                    15.8899519329,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km10+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25269,21 +21924,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12658500943,
-                    15.88939561766,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25311,21 +21951,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12613675329,
-                    15.88971672391,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25343,21 +21968,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12565276936,
-                    15.88944855665,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25385,21 +21995,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12520484497,
-                    15.88977516018,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25417,21 +22012,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12470100913,
-                    15.88975305452,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25459,21 +22039,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12421638028,
-                    15.89002013005,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25491,21 +22056,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12376889742,
-                    15.88969801411,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25533,21 +22083,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12328426743,
-                    15.88996508759,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25565,21 +22100,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12283678613,
-                    15.88964296968,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25607,21 +22127,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12235215498,
-                    15.88991004109,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25639,21 +22144,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12190467525,
-                    15.88958792122,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25681,21 +22171,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12142004296,
-                    15.88985499057,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25713,21 +22188,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12097253594,
-                    15.88953317872,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25755,21 +22215,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12048841125,
-                    15.88980110883,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25787,21 +22232,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.12004032276,
-                    15.88947978266,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25829,21 +22259,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11955619691,
-                    15.8897477107,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25861,21 +22276,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11910984496,
-                    15.88941498769,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25903,21 +22303,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11860028894,
-                    15.88963434485,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -25935,21 +22320,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11818793597,
-                    15.88927095861,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -25977,21 +22347,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11776086478,
-                    15.8892580424,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km11+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26009,21 +22364,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11720691261,
-                    15.88912268558,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26051,21 +22391,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11694088671,
-                    15.88965318931,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26083,21 +22408,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11640279886,
-                    15.88978319087,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26125,21 +22435,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11630427923,
-                    15.89031443078,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26157,21 +22452,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11576204841,
-                    15.89044065108,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26199,21 +22479,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11565938603,
-                    15.89096811099,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26231,21 +22496,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11512129381,
-                    15.89109810944,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26273,21 +22523,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11500187107,
-                    15.89160773063,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26305,21 +22540,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11451257482,
-                    15.89148512118,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26347,21 +22567,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11400563681,
-                    15.89202964084,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26379,21 +22584,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11361491411,
-                    15.89164871897,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26421,21 +22611,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11304796899,
-                    15.89178832741,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26453,21 +22628,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11281099738,
-                    15.8912359867,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26495,21 +22655,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11230710441,
-                    15.89094362373,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26527,21 +22672,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1125498274,
-                    15.89039362745,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26569,21 +22699,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11238534147,
-                    15.88987667545,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26601,21 +22716,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11283142716,
-                    15.88953285567,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26643,21 +22743,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11271675171,
-                    15.88900771886,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26675,21 +22760,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11316189338,
-                    15.8886875728,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26717,21 +22787,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11304721761,
-                    15.88816243613,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km12+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26749,21 +22804,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11349235691,
-                    15.88784228942,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26791,21 +22831,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11337768081,
-                    15.88731715289,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26823,21 +22848,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11382814138,
-                    15.88699895489,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26865,21 +22875,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11360557355,
-                    15.88653150266,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26897,21 +22892,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11394073976,
-                    15.88610387361,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -26939,21 +22919,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11367923042,
-                    15.88563055438,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -26971,21 +22936,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11401439503,
-                    15.88520292521,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27013,21 +22963,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11375288673,
-                    15.884729606,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27045,21 +22980,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11399975816,
-                    15.88430699158,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27087,21 +23007,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11354850823,
-                    15.8840238359,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27119,21 +23024,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11356803106,
-                    15.88350865583,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27161,21 +23051,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11306254232,
-                    15.88325296137,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27193,21 +23068,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11292512368,
-                    15.88283283286,
-                    12.34
-                ]
-            },
-            "properties": {
-                "name": "Km13+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27235,21 +23095,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11264837932,
-                    15.88262647269,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27267,21 +23112,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11240084455,
-                    15.88218896565,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27309,21 +23139,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11181034983,
-                    15.88213211411,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27341,21 +23156,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11177824442,
-                    15.88154471571,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27383,21 +23183,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11129459108,
-                    15.88126985671,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27415,21 +23200,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1113600324,
-                    15.88073687016,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27457,21 +23227,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1108869808,
-                    15.88045673772,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km13+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27489,21 +23244,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11095242298,
-                    15.87992375123,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27531,21 +23271,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11047937458,
-                    15.87964322166,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27563,21 +23288,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11055061767,
-                    15.87910791497,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27605,21 +23315,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11007280285,
-                    15.8788296171,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27637,21 +23332,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.11013892288,
-                    15.87829670892,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27679,21 +23359,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10966623443,
-                    15.87801601164,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27711,21 +23376,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1096852848,
-                    15.87750845419,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27753,21 +23403,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10916857085,
-                    15.87736998954,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27785,21 +23420,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10905408333,
-                    15.87684481493,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27827,21 +23447,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.1085132342,
-                    15.87672617457,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27859,21 +23464,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10839874877,
-                    15.87620099954,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+500",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27901,21 +23491,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10785851702,
-                    15.87608325319,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+550",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -27933,21 +23508,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10768268361,
-                    15.87563165988,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+600",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -27975,21 +23535,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10715950583,
-                    15.87580243619,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+650",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28007,21 +23552,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10684551811,
-                    15.87531153038,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+700",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28049,21 +23579,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10627237877,
-                    15.87547906857,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+750",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28081,21 +23596,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10584740384,
-                    15.87530948349,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+800",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28123,21 +23623,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10539075371,
-                    15.87508846003,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+850",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28155,21 +23640,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10512105242,
-                    15.87462641689,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+900",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28197,21 +23667,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10452737025,
-                    15.87474420739,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km14+950",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28229,21 +23684,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10420966895,
-                    15.87430427963,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+000",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28271,21 +23711,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10366314816,
-                    15.87439940924,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+050",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28303,21 +23728,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10338052875,
-                    15.8738964412,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+100",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28345,21 +23755,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10288149125,
-                    15.87388116269,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+150",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28377,21 +23772,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10260205404,
-                    15.87339731788,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+200",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28419,21 +23799,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10205116268,
-                    15.8733024591,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+250",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28451,21 +23816,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10176853677,
-                    15.87298967746,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+300",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28493,21 +23843,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10141554074,
-                    15.87261455514,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+350",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28525,21 +23860,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10139331505,
-                    15.87204369273,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+400",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
@@ -28567,21 +23887,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10090922007,
-                    15.87178186253,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+450",
-                "styleUrl": "#InPointMap_Point_0012"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -28599,21 +23904,6 @@
             "properties": {
                 "name": "Polyline_002",
                 "stroke": "#ffff00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    108.10096924846,
-                    15.87127352603,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Km15+496.56",
-                "styleUrl": "#InPointMap_Point_0012"
             }
         },
         {
